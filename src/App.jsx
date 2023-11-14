@@ -4,7 +4,6 @@ import Aos from "aos";
 
 import Home from './components/Home'
 import Nav from "./components/Nav";
-import About from "./components/About";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
 
