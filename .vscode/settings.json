@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/aa80bf7c-25b9-4fe1-8f21-792d1f524d2e/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/dbcustodianwebsite",
+    "appService.deploySubpath": "."
+}

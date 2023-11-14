@@ -41,19 +41,19 @@ const Contact = () => {
           </div>
           <div className="flex py-2">
             <FaLinkedinIn size={24} className="text-gray-400 mr-4" />
-            <p className="text-gray-600">sample linkedin </p>
-          </div>
-          <div className="flex py-2">
-            <HiEnvelope size={24} className="text-gray-400 mr-4" />
-            <p className="text-gray-600">sample linkedin </p>
-          </div>
-          <div className="flex py-2">
-            <HiBuildingOffice2 size={24} className="text-gray-400 mr-4" />
-            <p className="text-gray-600">sample linkedin </p>
+            <a href="https://www.linkedin.com/in/db-custodian-98279429b/" target="_blank" className="hover:text-blue-700 text-gray-600">linkedin.com/db-custodian/</a>
           </div>
           <div className="flex py-2">
             <FaTwitter size={24} className="text-gray-400 mr-4" />
-            <p className="text-gray-600">sample linkedin </p>
+            <a href="https://twitter.com/db_custodian" target="_blank" className="hover:text-blue-700 text-gray-600">@db_custodian</a>
+          </div>
+          <div className="flex py-2">
+            <HiBuildingOffice2 size={24} className="text-gray-400 mr-4" />
+            <p className="text-gray-600">Bengaluru, India</p>
+          </div>
+          <div className="flex py-2">
+            <HiEnvelope size={24} className="text-gray-400 mr-4" />
+            <a href="mailto:dbcustodianofficial@gmail.com" target="_blank" className="hover:text-blue-700 text-gray-600">dbcustodianofficial@gmail.com</a>
           </div>
         </div>
         <form
