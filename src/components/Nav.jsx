@@ -3,7 +3,7 @@ const Nav = () => {
     return (
         <nav class=" fixed top-0 w-full z-[999] border-gray-200 bg-blue-700">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src={LOGO} class="h-10 md:h-16" alt="Flowbite Logo" />
                 </a>
                 <div class="hidden w-full md:block md:w-auto" id="navbar-default">
