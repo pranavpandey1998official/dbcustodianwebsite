@@ -1,12 +1,28 @@
 import "./App.css";
+import { useEffect } from "react";
+import Aos from "aos";
+
+import Home from './components/Home'
+import Nav from "./components/Nav";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Services from "./components/Services";
 
 function App() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1800,
+      offset: 100,
+      disable: "mobile",
+    });
+  }, []);
   return (
-    <main className="flex justify-center gap-4 flex-col min-h-screen">
-      <h1 className="text-3xl text-center font-bold underline">React & Tailwind CSS Starter Pack</h1>
-      <p className="text-center text-xl">This is a starter pack for React & Tailwind CSS projects.</p>
-      <img src="https://bit.ly/3wsmzTy" alt="meme" className="mx-auto" />
-    </main>
+    <>
+    <Nav />
+    <Home />
+    <Services />
+    <Contact />
+    </>
   );
 }
 
